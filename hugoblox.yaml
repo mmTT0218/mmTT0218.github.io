@@ -1,0 +1,13 @@
+build:
+  # GitHub Actions でのビルドに使う Hugo のバージョン
+  # 注意: 0.162.0 では現時点のテーマ側に不具合があり，ビルドが
+  #       「assignment to entry in nil map」で失敗する。
+  #       動作確認済みの 0.161.1 を固定している。
+  #       テーマ更新後に上げる場合は，必ずローカルでビルドしてから変更すること。
+  hugo_version: '0.161.1'
+deploy:
+  # Deployment target: github-pages, netlify, vercel, cloudflare, or none
+  host: 'github-pages'
+template:
+  id: "academic-cv"
+  name: "Academic CV"

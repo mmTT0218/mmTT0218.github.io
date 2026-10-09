@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────────────────────
+# 言語ごとの設定
+#   コンテンツは単一の content/ 内でファイル名により切り替える
+#     日本語（既定）: index.md      → /
+#     英語          : index.en.md   → /en/
+#   ヘッダ・フッタの言語切り替えボタンは params.yaml で有効化済み
+# ─────────────────────────────────────────────────────────────
+
+ja:
+  locale: ja-jp
+  label: 日本語          # 言語切り替えメニューに表示される名前
+  weight: 1
+  title: ''
+  params:
+    description: '申 泰明（法政大学大学院 情報科学研究科）の研究業績・ポートフォリオ。パララックスバリア方式裸眼3Dディスプレイに関する研究。'
+
+en:
+  locale: en-us
+  label: English
+  weight: 2
+  title: ''
+  params:
+    description: 'Research and portfolio site of Taemyong Shin, Computational Reality Laboratory, Hosei University. Parallax-barrier autostereoscopic 3D displays.'

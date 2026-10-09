@@ -1,0 +1,86 @@
+# ═══════════════════════════════════════════════════════════════════════
+# プロフィール（日本語での上書き）
+#   data/authors/me.yaml の内容に，このファイルの値が上書きされる。
+#   配列（education / skills / awards など）は丸ごと置き換わるため，
+#   日本語で表示したい場合は配列全体をここに書く。
+# ═══════════════════════════════════════════════════════════════════════
+slug: me
+
+name:
+  display: 申 泰明
+  given: 泰明
+  family: 申
+  alternate: Taemyong Shin
+  pronunciation: シン テミョン
+
+role: 法政大学大学院 情報科学研究科 情報科学専攻 修士課程2年
+
+bio: |
+  法政大学大学院 情報科学研究科 Computational Reality Laboratory 所属。
+  専用の眼鏡を使わずに立体映像を見られる、パララックスバリア方式の裸眼3Dディスプレイを研究しています。
+  バリアとディスプレイパネルの貼り合わせ時に生じる回転ズレを撮影したモアレから推定し、
+  視差画像を補正することで、精密な位置合わせに頼らずに安定した立体視を実現することを目指しています。
+
+affiliations:
+  - name: 法政大学 Computational Reality Laboratory
+    url: ''
+
+interests: []
+
+education:
+  - degree: 修士（理学）取得見込み
+    institution: 法政大学大学院 情報科学研究科 情報科学専攻
+    start: 2025-04-01
+    end: 2027-03-31
+    summary: |
+      Computational Reality Laboratory 所属。パララックスバリア方式裸眼3Dディスプレイに関する研究に従事。
+  - degree: 学士
+    institution: 朝鮮大学校 理工学部 電子情報工学科
+    start: 2020-04-01
+    end: 2024-03-31
+
+# 高等学校の学歴は，研究者向けサイトでは省略するのが一般的なため記載していません。
+# 載せる場合は上の形式で追加してください（神奈川朝鮮中高級学校 高等部 2017-04 〜 2020-03）。
+
+skills:
+  - name: プログラミング
+    items:
+      - label: Python
+        description: 画像処理・信号処理、2次元フーリエ変換によるモアレ解析、数理モデルの実装および数値シミュレーション
+      - label: C# / Shader（Unity）
+        description: 3Dディスプレイの映像表示、および回転ズレに応じた視差画像補正処理の実装
+
+# level は 1〜5 の数値（リングの割合になる）。label が下に表示される文言。
+# 数値はご自身の感覚に合わせて調整してください。
+languages:
+  - name: 日本語
+    level: 5
+    label: ネイティブ
+  - name: 英語
+    level: 3
+    label: TOEIC L&R 720点
+#  - name: 朝鮮語
+#    level: 5
+#    label: ネイティブ
+
+awards:
+  # date を空にすると「現在」と表示されるため，必ず記入すること。
+  # 期間がある場合は date に開始年月を書き，summary に期間を補足する。
+  - title: 朝鮮奨学会 奨学生 採用
+    awarder: 朝鮮奨学会
+    date: '2025-04-01'
+    summary: 2025年4月〜2027年3月
+  - title: 法政大学100周年記念大学院修士課程奨学金 採用
+    awarder: 法政大学
+    date: '2026-07-01'
+  - title: TOEIC Listening & Reading Test 720点
+    awarder: ETS
+    date: '2026-05-01'
+  - title: 第二種電気工事士
+    awarder: 経済産業省
+    date: '2022-04-01'
+  - title: ITパスポート試験 合格
+    awarder: 情報処理推進機構（IPA）
+    date: '2020-03-01'
+# 普通自動車第一種運転免許（AT限定，2026年7月取得）は研究業績サイトの性格上
+# 省略しています。載せる場合は上の形式で追加してください。

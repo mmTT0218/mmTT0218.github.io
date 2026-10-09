@@ -1,0 +1,84 @@
+# ─────────────────────────────────────────────────────────────
+# Hugo 本体の設定
+# Docs: https://gohugo.io/getting-started/configuration/
+# ─────────────────────────────────────────────────────────────
+
+# サイト名は params.yaml の hugoblox.identity.name で設定する
+title: ''
+
+# ★ 公開先の URL（GitHub Pages のリポジトリ名に合わせて書き換える）
+#   GitHub ユーザ名は mmTT0218。
+#   - リポジトリ名を mmTT0218.github.io にした場合（推奨・下の設定）
+#       → https://mmtt0218.github.io/
+#   - リポジトリ名を Myong.github.io など別名にした場合
+#       → https://mmtt0218.github.io/Myong.github.io/
+#         この場合は下の baseURL を
+#         'https://mmtt0218.github.io/Myong.github.io/' に書き換える。
+#   なお GitHub Actions でのビルド時は baseURL が自動設定されるため，
+#   ここの値が効くのはローカル確認時のみ。
+#   GitHub Actions のビルド時は自動で上書きされるため、ローカル確認用の値でよい
+baseURL: 'https://mmtt0218.github.io/'
+
+############################
+## 言語設定
+############################
+
+# 既定の言語。日本語を「/」に、英語を「/en/」に配置する
+# 英語を既定にしたい場合は en に変更し，各 content ファイルの接尾辞を入れ替える
+defaultContentLanguage: ja
+# 日本語を含むため true（単語数・要約の処理が正しくなる）
+hasCJKLanguage: true
+# false のとき既定言語はサブディレクトリなしで公開される
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## ページ設定
+############################
+
+cascade:
+  - target:
+      path: /slides/**
+      kind: page
+    outputs: [HTML, present]
+  # 業績ページに「1分で読める」を表示しない
+  - target:
+      path: /publications/**
+    reading_time: false
+
+############################
+## 詳細設定
+############################
+
+build:
+  writeStats: true
+enableGitInfo: false
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+disableAliases: true
+outputs:
+  home: [HTML, RSS, headers, redirects, backlinks]
+  section: [HTML, RSS]
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+  hint: picture
+timeout: 600000
+taxonomies:
+  author: authors
+  tag: tags
+  publication_type: publication_types
+markup:
+  _merge: deep
+  highlight:
+    lineNos: false
+security:
+  _merge: deep
+sitemap:
+  _merge: deep

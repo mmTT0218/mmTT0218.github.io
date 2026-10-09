@@ -1,0 +1,3 @@
+このフォルダに置いたファイルは https://<サイトURL>/uploads/<ファイル名> で公開されます。
+CV を配布する場合は cv.pdf を置き，content/_index.md と _index.en.md の
+コメントアウトしてある button ブロックを有効にしてください。

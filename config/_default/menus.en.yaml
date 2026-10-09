@@ -1,0 +1,19 @@
+# Navigation for the English site
+main:
+  - name: About
+    url: /en/
+    weight: 10
+  - name: Publications
+    url: /en/#papers
+    weight: 20
+  - name: Experience
+    url: /en/experience/
+    weight: 30
+
+# Uncomment once the corresponding content exists
+#  - name: Projects
+#    url: /en/projects/
+#    weight: 40
+#  - name: News
+#    url: /en/blog/
+#    weight: 50

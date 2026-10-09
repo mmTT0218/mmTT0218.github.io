@@ -1,0 +1,292 @@
+# ═══════════════════════════════════════════════════════════════════════
+# 日本語の UI 文言（テーマ側の訳が未整備な項目を補完する）
+#   このファイルの内容はテーマ同梱の翻訳より優先される。
+#   表現を変えたい場合は translation の値を書き換えればよい。
+# ═══════════════════════════════════════════════════════════════════════
+
+# ── 経歴・プロフィール
+- id: experience
+  translation: 職歴
+- id: about_me
+  translation: 自己紹介
+- id: awards
+  translation: 受賞
+- id: status
+  translation: 状況
+- id: featured
+  translation: 注目
+- id: details
+  translation: 詳細
+- id: read_more
+  translation: 続きを読む
+- id: all
+  translation: すべて
+- id: browse
+  translation: 一覧
+- id: topics
+  translation: トピック
+- id: related_resources
+  translation: 関連資料
+- id: backlinks
+  translation: 被リンク
+- id: scroll_to_content
+  translation: 本文へ
+- id: trending
+  translation: 注目の話題
+- id: helpful
+  translation: 参考になった
+
+# ── 業績まわり
+- id: citation
+  translation: 引用情報
+- id: how_to_cite
+  translation: 引用方法
+- id: copy_citation
+  translation: 引用をコピー
+- id: copy_link
+  translation: リンクをコピー
+- id: bibtex
+  translation: BibTeX
+- id: download_cite_bib
+  translation: cite.bib をダウンロード
+- id: peer_reviewed
+  translation: 査読あり
+- id: open_access
+  translation: オープンアクセス
+- id: license
+  translation: ライセンス
+- id: funding
+  translation: 研究助成
+
+# ── 受賞の区分
+- id: award_level_winner
+  translation: 受賞
+- id: award_level_runner_up
+  translation: 次点
+- id: award_level_honorable_mention
+  translation: 佳作
+- id: award_level_nominee
+  translation: ノミネート
+- id: award_level_selected
+  translation: 採択
+- id: award_level_featured
+  translation: 注目
+
+# ── セクション名
+- id: blog
+  translation: お知らせ
+- id: events
+  translation: イベント
+- id: docs
+  translation: ドキュメント
+- id: article
+  translation: 記事
+- id: articles
+  translation: 記事
+- id: lecture
+  translation: 講義
+- id: developer
+  translation: 開発者
+- id: content_type
+  translation: 種別
+- id: difficulty
+  translation: 難易度
+- id: prerequisites
+  translation: 前提知識
+
+# ── ポートフォリオ
+- id: portfolio_link_code
+  translation: コード
+- id: portfolio_link_live
+  translation: 公開版
+- id: portfolio_link_demo
+  translation: デモ
+- id: portfolio_link_default
+  translation: リンク
+- id: portfolio_view_all
+  translation: すべてのプロジェクトを見る
+
+# ── 外部リンクのボタン
+- id: btn_doi
+  translation: DOI
+- id: btn_site
+  translation: サイト
+- id: btn_canonical
+  translation: 原典
+- id: btn_crosspost
+  translation: 転載元
+- id: btn_discussion
+  translation: 議論
+- id: btn_event
+  translation: イベント
+- id: btn_calendar
+  translation: カレンダー
+- id: btn_registration
+  translation: 参加登録
+- id: btn_demo
+  translation: デモ
+- id: btn_model
+  translation: モデル
+- id: btn_hal
+  translation: HAL
+- id: btn_dblp
+  translation: DBLP
+- id: btn_isbn
+  translation: ISBN
+- id: btn_osf
+  translation: OSF
+- id: btn_zenodo
+  translation: Zenodo
+- id: btn_kaggle
+  translation: Kaggle
+- id: btn_openalex
+  translation: OpenAlex
+- id: btn_semanticscholar
+  translation: Semantic Scholar
+- id: btn_pwc
+  translation: Papers With Code
+
+# ── スライド
+- id: present_slides
+  translation: 発表モード
+- id: present_fullscreen
+  translation: 全画面で発表
+- id: export_pdf_print
+  translation: PDF として書き出す
+- id: slides_print_hint
+  translation: 印刷モードで開く（ブラウザの「印刷」→「PDF として保存」を使う）
+- id: slides_search_placeholder
+  translation: タイトルで検索...
+- id: slides_no_decks
+  translation: スライドがありません
+- id: slides_no_matches
+  translation: 条件に一致するスライドがありません
+- id: slides_not_found
+  translation: スライドが見つかりません
+- id: back_to_slides
+  translation: スライド一覧へ戻る
+- id: enter_fullscreen
+  translation: 全画面にする
+- id: exit_fullscreen
+  translation: 全画面を終了
+- id: speaker_notes_hint
+  translation: で発表者ノートを表示
+- id: clear_filters
+  translation: 絞り込みを解除
+
+# ── Q&A・FAQ
+- id: qa
+  translation: 質問と回答
+- id: questions
+  translation: 質問
+- id: faq
+  translation: よくある質問
+- id: faqs
+  translation: よくある質問
+- id: question
+  translation: 質問
+- id: answer
+  translation: 回答
+- id: accepted_answer
+  translation: 採用された回答
+- id: other_answers
+  translation: その他の回答
+- id: related_questions
+  translation: 関連する質問
+- id: browse_by_category
+  translation: カテゴリから探す
+- id: search_questions
+  translation: 質問を検索...
+- id: no_questions_yet
+  translation: まだ質問はありません
+- id: questions_count
+  translation: 件の質問
+
+# ── 問い合わせブロック
+- id: block_contact_title
+  translation: お問い合わせ
+- id: block_contact_visit_title
+  translation: 所在地
+- id: block_contact_office_hours
+  translation: 対応時間
+- id: block_contact_view_on_map
+  translation: 地図で見る
+- id: block_contact_connect_title
+  translation: 連絡先
+- id: block_contact_follow_us
+  translation: フォローする
+- id: block_contact_follow_me
+  translation: 各種アカウント
+- id: block_contact_prospective_title
+  translation: 配属希望の方へ
+- id: block_contact_form_title
+  translation: メッセージを送る
+- id: block_contact_form_name
+  translation: お名前
+- id: block_contact_form_email
+  translation: メールアドレス
+- id: block_contact_form_subject
+  translation: 件名
+- id: block_contact_form_message
+  translation: 本文
+- id: block_contact_form_submit
+  translation: 送信する
+
+# ── フィードバック
+- id: feedback_widget_title
+  translation: フィードバック
+- id: feedback_widget_question
+  translation: このページは参考になりましたか？
+- id: feedback_widget_answer_positive
+  translation: 😍 はい
+- id: feedback_widget_answer_negative
+  translation: 😡 いいえ
+- id: ai_insight
+  translation: AI による要約
+
+# ── カウントダウン
+- id: days
+  translation: 日
+- id: hours
+  translation: 時間
+- id: minutes
+  translation: 分
+- id: seconds
+  translation: 秒
+
+# ── 注記ブロック（> [!NOTE] などの見出し）
+- id: callout_note
+  translation: 補足
+- id: callout_abstract
+  translation: 概要
+- id: callout_summary
+  translation: まとめ
+- id: callout_info
+  translation: 情報
+- id: callout_todo
+  translation: ToDo
+- id: callout_tip
+  translation: ヒント
+- id: callout_success
+  translation: 成功
+- id: callout_question
+  translation: 疑問
+- id: callout_warning
+  translation: 注意
+- id: callout_failure
+  translation: 失敗
+- id: callout_danger
+  translation: 危険
+- id: callout_bug
+  translation: 不具合
+- id: callout_example
+  translation: 例
+- id: callout_quote
+  translation: 引用
+- id: callout_important
+  translation: 重要
+- id: callout_caution
+  translation: 警告
+
+- id: poweredby_button
+  translation: 自分のサイトを作る →

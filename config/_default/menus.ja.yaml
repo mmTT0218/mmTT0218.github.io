@@ -1,0 +1,20 @@
+# 日本語版のナビゲーション
+#   url の先頭が「/#」のものはトップページ内のセクション ID に対応する
+main:
+  - name: プロフィール
+    url: /
+    weight: 10
+  - name: 業績
+    url: /#papers
+    weight: 20
+  - name: 経歴
+    url: /experience/
+    weight: 30
+
+# ── 下の項目は，対応するコンテンツを追加したらコメントを外してください
+#  - name: プロジェクト
+#    url: /projects/
+#    weight: 40
+#  - name: お知らせ
+#    url: /blog/
+#    weight: 50

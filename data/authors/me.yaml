@@ -1,0 +1,110 @@
+# ═══════════════════════════════════════════════════════════════════════
+# プロフィール（共通 + 英語）
+#   ここに書いた内容が英語版で表示され，日本語版の既定値にもなる。
+#   日本語で上書きする項目は data/ja/authors/me.yaml に書く。
+#   ※ [要確認] と書かれた箇所は，正式名称などの裏が取れていない項目です。
+# ═══════════════════════════════════════════════════════════════════════
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Taemyong Shin
+  given: Taemyong
+  family: Shin
+  alternate: 申 泰明
+  pronunciation: ''   # 英語版では読みがなを出さない（日本語版は data/ja 側で シン テミョン を表示）
+  pronouns: ''
+
+postnominals: []
+
+role: Master's Student (M2), Computer and Information Sciences
+
+bio: |
+  Taemyong Shin is a master's student at the Computational Reality Laboratory,
+  Hosei University. He works on parallax-barrier autostereoscopic 3D displays,
+  focusing on the rotational misalignment that occurs when the barrier is
+  bonded to the display panel. He develops methods that estimate the
+  misalignment angle from captured moiré patterns and correct the parallax
+  images accordingly, so that glasses-free stereoscopy stays stable without
+  precise mechanical alignment.
+
+affiliations:
+  - name: Computational Reality Laboratory, Hosei University
+    url: ''     # 研究室サイトの URL があれば記入
+
+# ── 各種リンク
+#   ORCID や Google Scholar を作成したら，下のコメントを外して URL を記入する
+links:
+  - icon: at-symbol
+    url: 'mailto:taemyong.shin.3h@stu.hosei.ac.jp'
+    label: E-mail
+  - icon: brands/github
+    url: 'https://github.com/mmTT0218'
+#  - icon: academicons/orcid
+#    url: 'https://orcid.org/0000-0000-0000-0000'
+#  - icon: academicons/google-scholar
+#    url: 'https://scholar.google.com/citations?user=XXXX'
+
+# 「興味・関心」欄は非表示にしています。表示したい場合はキーワードを並べてください
+interests: []
+
+education:
+  - degree: M.S. in Computer and Information Sciences (expected)
+    institution: Graduate School of Computer and Information Sciences, Hosei University
+    start: 2025-04-01
+    end: 2027-03-31
+    summary: |
+      Computational Reality Laboratory. Research on parallax-barrier
+      autostereoscopic 3D displays.
+  - degree: B.E. in Electronics and Information Engineering         # [要確認] 学士の正式名称（学士（工学）など）
+    institution: Korea University, Japan
+    start: 2020-04-01
+    end: 2024-03-31
+
+# 職歴は履歴書に「なし」と記載があったため省略しています。
+# 追加する場合は下の形式で記入してください。
+#experience:
+#  - role: Research Assistant
+#    org: Hosei University
+#    start: 2026-04-01
+#    summary: |
+#      ...
+
+skills:
+  - name: Programming
+    items:
+      - label: Python
+        description: Image and signal processing, moiré analysis with 2D FFT, numerical simulation of analytical models
+      - label: C# / Shader (Unity)
+        description: Rendering for 3D displays and parallax-image correction for rotational misalignment
+
+# level: 1-5 (drives the ring); label is the caption shown underneath.
+languages:
+  - name: Japanese
+    level: 5
+    label: Fluent
+  - name: English
+    level: 3
+    label: TOEIC L&R 720
+#  - name: Korean
+#    level: 5
+#    label: Fluent
+
+awards:
+  - title: Chosen Scholarship Foundation Scholarship
+    awarder: Korean Scholarship Foundation in Japan             # [要確認] 朝鮮奨学会の英語表記
+    date: '2025-04-01'
+    summary: April 2025 - March 2027
+  - title: Hosei University 100th Anniversary Graduate Scholarship
+    awarder: Hosei University
+    date: '2026-07-01'
+  - title: TOEIC Listening & Reading Test, Score 720
+    awarder: ETS
+    date: '2026-05-01'
+  - title: Class-2 Electrical Work Engineer
+    awarder: METI, Japan
+    date: '2022-04-01'
+  - title: Information Technology Passport Examination
+    awarder: IPA, Japan
+    date: '2020-03-01'
