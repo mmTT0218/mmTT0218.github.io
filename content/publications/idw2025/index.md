@@ -47,7 +47,7 @@ links: []
 
 # サムネイル画像は同じフォルダの featured.png が使われる
 image:
-  caption: 'ディスプレイ側に回転ズレを割り当てるドットスペース設計'
+  caption: ''
   focal_point: Center
   preview_only: false
 

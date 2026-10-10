@@ -45,7 +45,7 @@ links: []
 
 # サムネイル画像は同じフォルダの featured.png が使われる
 image:
-  caption: 'Dot space design that models the rotational misalignment on the display side'
+  caption: ''
   focal_point: Center
   preview_only: false
 

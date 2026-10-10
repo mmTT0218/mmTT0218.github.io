@@ -1,0 +1,25 @@
+# ═══════════════════════════════════════════════════════════════════════
+# 資格の一覧（英語）
+#   「受賞ブロック」は1プロフィールにつき1つのリストしか持てないため，
+#   資格は専用のプロフィールとして分けている。
+#   経歴ページの2つ目の受賞ブロック（username: certifications）がここを読む。
+#   日本語の表記は data/ja/authors/certifications.yaml 側で上書きする。
+# ═══════════════════════════════════════════════════════════════════════
+schema: hugoblox/author/v1
+slug: certifications
+
+name:
+  display: Certifications
+
+awards:
+  - title: TOEIC Listening & Reading Test, Score 720
+    awarder: ETS
+    date: '2026-05-01'
+  - title: Class-2 Electrical Work Engineer
+    awarder: METI, Japan
+    date: '2022-04-01'
+  - title: Information Technology Passport Examination
+    awarder: IPA, Japan
+    date: '2020-03-01'
+# 普通自動車第一種運転免許（AT限定，2026年7月取得）は研究業績サイトの性格上
+# 省略している。載せる場合は上の形式で追加する。

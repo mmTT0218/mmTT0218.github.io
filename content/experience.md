@@ -20,10 +20,11 @@ sections:
       username: me
   - block: resume-awards
     content:
-      title: 受賞
+      title: 助成金および奨学金
       username: me
-  - block: resume-languages
+  # 資格は data/ja/authors/certifications.yaml（英語版は data/authors/）を読む
+  - block: resume-awards
     content:
-      title: 語学
-      username: me
+      title: 資格
+      username: certifications
 ---

@@ -41,7 +41,7 @@ links: []
 
 # サムネイル画像は同じフォルダの featured.png が使われる
 image:
-  caption: 'Dot space design referenced to the slant angle of the parallax barrier'
+  caption: ''
   focal_point: Center
   preview_only: false
 

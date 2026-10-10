@@ -41,7 +41,7 @@ links: []
 
 # サムネイル画像は同じフォルダの featured.png が使われる
 image:
-  caption: 'バリアの傾斜角を基準としたドットスペース設計'
+  caption: ''
   focal_point: Center
   preview_only: false
 

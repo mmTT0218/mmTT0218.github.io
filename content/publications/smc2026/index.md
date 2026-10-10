@@ -41,7 +41,7 @@ links: []
 
 # サムネイル画像は同じフォルダの featured.png が使われる
 image:
-  caption: '撮影したモアレ（左）と空間周波数スペクトル上の波数ベクトル（右）'
+  caption: ''
   focal_point: Center
   preview_only: false
 

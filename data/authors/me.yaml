@@ -79,6 +79,7 @@ skills:
       - label: C# / Shader (Unity)
         description: Rendering for 3D displays and parallax-image correction for rotational misalignment
 
+# (Currently unused: the Languages block was removed from the experience page.)
 # level: 1-5 (drives the ring); label is the caption shown underneath.
 languages:
   - name: Japanese
@@ -91,20 +92,12 @@ languages:
 #    level: 5
 #    label: Fluent
 
+# Grants & scholarships only. Certifications live in data/authors/certifications.yaml
 awards:
-  - title: Chosen Scholarship Foundation Scholarship
-    awarder: Korean Scholarship Foundation in Japan             # [要確認] 朝鮮奨学会の英語表記
-    date: '2025-04-01'
-    summary: April 2025 - March 2027
   - title: Hosei University 100th Anniversary Graduate Scholarship
     awarder: Hosei University
     date: '2026-07-01'
-  - title: TOEIC Listening & Reading Test, Score 720
-    awarder: ETS
-    date: '2026-05-01'
-  - title: Class-2 Electrical Work Engineer
-    awarder: METI, Japan
-    date: '2022-04-01'
-  - title: Information Technology Passport Examination
-    awarder: IPA, Japan
-    date: '2020-03-01'
+  - title: Chosen Scholarship Foundation Scholarship
+    awarder: Korean Scholarship Foundation in Japan    # [要確認] 朝鮮奨学会の英語表記
+    date: '2025-04-01'
+    summary: April 2025 - March 2027

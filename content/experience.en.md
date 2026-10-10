@@ -19,10 +19,10 @@ sections:
       username: me
   - block: resume-awards
     content:
-      title: Awards
+      title: Grants & Scholarships
       username: me
-  - block: resume-languages
+  - block: resume-awards
     content:
-      title: Languages
-      username: me
+      title: Certifications
+      username: certifications
 ---

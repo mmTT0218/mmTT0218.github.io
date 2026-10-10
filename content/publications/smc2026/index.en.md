@@ -41,7 +41,7 @@ links: []
 
 # サムネイル画像は同じフォルダの featured.png が使われる
 image:
-  caption: 'Captured moiré (left) and the wave vectors on its spatial-frequency spectrum (right)'
+  caption: ''
   focal_point: Center
   preview_only: false
 
