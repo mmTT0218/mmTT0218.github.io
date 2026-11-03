@@ -13,8 +13,8 @@ authors:
   - Goro Hamagishi
   - Hideya Takahashi
 
-date: '2025-12-03T00:00:00Z'
-publishDate: '2025-12-03T00:00:00Z'
+date: '2025-12-04T00:00:00Z'
+publishDate: '2025-12-04T00:00:00Z'
 
 publication_types: ['paper-conference']
 
@@ -57,6 +57,8 @@ projects: []
 slides: ''
 ---
 
-The 32nd International Display Workshops (IDW ’25), 論文番号 3Dp1-10, 2025年12月3〜5日, 広島。
+The 32nd International Display Workshops (IDW ’25)。
+セッション 3Dp1「3D/Hyper-realistic Displays and Applications」にてポスター発表。
+2025年12月4日 11:10, 国際会議場 広島。
 
 Keywords: crosstalk, 3D image quality, parallax barrier, autostereoscopic 3D display, calibration
