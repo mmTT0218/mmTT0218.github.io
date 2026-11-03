@@ -155,7 +155,7 @@ content/publications/idw2025/
 | `content/publications/3dmt2025/` | 立体メディア技術研究会（3DMT），2025年10月 |
 | `content/publications/idw2025/` | IDW ’25，2025年12月 |
 | `content/publications/smc2026/` | 空間メディアコンファレンス2026，2026年7月 |
-| `content/publications/idw2026/` | IDW ’26 Late-News Paper，2026年12月 |
+| `content/publications/idw2026/` | IDW ’26，2026年12月 |
 
 `index.md` の `featured: true` を付けたものがトップの「業績」カードに表示されます。
 現在は3件とも `featured: true` にしてあります。トップページは「業績」（カード）と

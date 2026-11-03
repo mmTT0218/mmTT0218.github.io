@@ -13,7 +13,7 @@ authors:
 
 # date は発表日，publishDate は採択（公開）日
 #   publishDate を未来にすると Hugo がページを生成しないため，必ず当日以前にする
-date: '2026-12-02T00:00:00Z'
+date: '2026-12-03T00:00:00Z'
 publishDate: '2026-11-03T00:00:00Z'
 
 publication_types: ['paper-conference']
@@ -27,7 +27,9 @@ open_access: false
 
 abstract: 'Angular misalignment between the parallax barrier and the display panel degrades autostereoscopic 3D images. Using a two-dimensional spatial-frequency model, we confirmed that the stripe–barrier difference frequency dominates the low-frequency spectrum. Moiré-based estimates differed from measured angles by at most 0.05°, and correction using them reduced crosstalk from 40.4–61.7% to 7.8–10.1%.'
 
-summary: 'Proc. IDW ’26, Late-News Paper（2026年12月、浜松）'
+# 最終プログラム公開後（11月中旬）に，3Dp2/3DSAp2 を確定した論文番号
+# （例: 3Dp2-7）へ差し替える
+summary: 'Proc. IDW ’26, 3Dp2/3DSAp2（2026年12月、浜松）'
 
 tags:
   - 裸眼3Dディスプレイ
@@ -54,6 +56,8 @@ projects: []
 slides: ''
 ---
 
-The 33rd International Display Workshops (IDW ’26), Late-News Paper, 2026年12月2〜4日, ACT CITY 浜松。
+The 33rd International Display Workshops (IDW ’26)。
+セッション 3Dp2/3DSAp2「3D/VR/AR Technologies (2)」にてポスター発表。
+2026年12月3日 15:30〜17:00, ACT CITY 浜松。
 
 Keywords: Autostereoscopic 3D Display, Parallax Barrier, Moiré, Crosstalk
