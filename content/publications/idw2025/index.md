@@ -2,9 +2,11 @@
 # 国際会議の発表のため，日本語版サイトでも原題（英語）のまま掲載する
 title: 'Viewing Zone Design Independent of Rotational Misalignment Between Parallax Barrier and Display'
 
-# 国際会議の発表のため，著者名も原著どおり英語表記にする
+# 国際会議の発表のため，著者名は原著どおり英語表記にする
+#   `me` は日本語版で「申 泰明」になるため，英語表記専用のプロフィール
+#   taemyong-shin（data/authors/taemyong-shin.yaml）を使う
 authors:
-  - me
+  - taemyong-shin
   - Kyosuke Yanagida
   - Takafumi Koike
   - Ken Mashitani
